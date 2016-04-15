@@ -9,7 +9,7 @@ def cleanTypo(word):
         for i in range(len(three_chars)):
             c1 = 'a' <= three_chars[i][0] <= 'z'
             c2 = 'A' <= three_chars[i][1] <= 'Z'
-            c3 = 'a' <= three_chars[i][0] <= 'z'
+            c3 = 'a' <= three_chars[i][2] <= 'z'
             isTypo = isTypo or c1&c2&c3
             if isTypo:
                 index = i+1
