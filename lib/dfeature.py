@@ -19,7 +19,7 @@ for i in range(1,len(data)):
 	df2 = pd.Series([id]+cur_row, index=['product_uid','jc1','jc2','jc3','dd1','dd2','dd3'])
 	df = df.append(df2, ignore_index=True)
 
-
+	df.to_csv("distanceFeature.csv")
 
 
 def featureGenerate(title,description,searchItem,i=2):
