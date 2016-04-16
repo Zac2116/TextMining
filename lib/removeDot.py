@@ -1,0 +1,2 @@
+def removeDot(string):
+	if 

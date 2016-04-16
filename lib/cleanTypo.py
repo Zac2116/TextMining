@@ -15,9 +15,8 @@ def cleanTypo(word):
                 index = i+1
                 cor_word = word[:index] + " " + word[index:]
                 break
-
+            
             else:
                 cor_word = word
-
 
         return cor_word.split(" ")
