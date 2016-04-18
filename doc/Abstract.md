@@ -1,18 +1,20 @@
 Title: Home Depot Product Search Relevance
-
+==========================================
 Group member:
-Kewen Zhang, 	Uni: kz2246
-Pengfei Wang, 	Uni: pw2406
-Xiaoci Xing, 	Uni: xx2203
-Ziyue Wu, 		Uni: zw2338
+------------------------------------------
+* Kewen Zhang, 	  Uni: kz2246
+* Pengfei Wang, 	Uni: pw2406
+* Xiaoci Xing,  	Uni: xx2203
+* Ziyue Wu, 		  Uni: zw2338
 
 Abstract:
+-----------
 In this search relevance project, our goal was to build a model to predict the relevance of search results on homedepot.com, given the searching items, resulting product titles and product descriptions. Our team’s solution relies heavily on feature extraction/selection and model ensembling.
 
 Our solution consisted of two parts: feature extraction/selection and model ensembling. We had tried three types of feature:
-counting features( which is not used in the final result)
-distance features(4 grams)
-TF-IDF features
+* counting features( which is not used in the final result)
+* distance features(4 grams)
+* TF-IDF features
 
 Before generating features, we have realized that it’s reasonable to process the data. So we cleaned the data with spelling correction, synonym replacement, removing dots and stop words. Then we selected the optimal solution of N for each N-grams feature. 
 
