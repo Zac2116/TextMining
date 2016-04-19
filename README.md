@@ -15,6 +15,7 @@ What is our goal
 - 
 - 
 - 
+
 ## Exploration 
 1. relevance distribution.
 
