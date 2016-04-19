@@ -36,7 +36,7 @@ dFeatures <- read.csv("../data/distanceFeatures.csv")
 features_tfidf_d <- cbind(dFeatures[,-1],formated[,-1])
 write.csv(features_tfidf_d, file = "../data/features_tfidf_d.csv", row.names = FALSE)
 
-
+pairs(features_tfidf_d)
 
 
 
