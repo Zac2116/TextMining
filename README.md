@@ -12,9 +12,18 @@ Group member:
 What is our goal
 
 ## Data Clean
-- 
-- 
-- 
+- Fixed typo: “helloWorld” －> "hello World" 
+- Cleaned stop words
+- Replace synomous words
+- Cleared insignificant punctuation
+- Cleared plurality 
+- Changed to word sterm
+
+
+Before | After
+--- | --- 
+BEHR Premium Textured DeckOver 1-gal. #SC-141 Tugboat Wood and Concrete Coating | behr premium textur deck 1-ga sc-141 tugboat wood concret coat
+
 
 ## Exploration 
 1. relevance distribution.
@@ -47,6 +56,9 @@ What is our goal
 
     
 ## Conclusion
+
+
+
 
 | Feature\Regressor   | GLM                 | ML          | NN             |
 | ------------------- |:-------------------:| -----------:|---------------:|
