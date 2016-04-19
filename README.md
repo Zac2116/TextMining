@@ -11,12 +11,12 @@ Group member:
 ## Objective
 What is our goal
 
-## Data Clean
+## Data Cleaning
 - Fixed typo: “helloWorld” －> "hello World" 
-- Cleaned stop words
+- Cleaned stop words: delete words like "the", "and"
 - Replace synomous words
-- Cleared insignificant punctuation
-- Cleared plurality 
+- Cleared insignificant punctuation: "#.,"
+- Cleared plurality: "feet" -> foot
 - Changed to word sterm
 
 
