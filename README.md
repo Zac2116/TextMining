@@ -9,7 +9,10 @@ Group member:
 
 
 ## Objective
-What is our goal
+
+Predict how relevance of a search keywords matched with products, according to their description and attributes.
+
+![](https://raw.githubusercontent.com/Zac2116/TextMining/master/figs/raw_data.png)
 
 ## Data Cleaning
 - Fixed typo: “helloWorld” －> "hello World" 
