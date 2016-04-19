@@ -24,6 +24,10 @@ We had tried three types of feature:
 
 ####selection and model ensembling. 
 Model ensembling consisted of two main steps. Firstly, we trained model library using different models, different parameter settings, and different subsets of the features. Secondly, we generated ensemble submission from the possible ensemble selections. Performance was estimated using cross validation within the training set. We tried both classification and regression to compare our results.
+* Neural Net
+* General Linear Model
+* Machine Learning Methods
+
 
 
 
