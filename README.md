@@ -8,7 +8,7 @@ Group member:
 * Ziyue Wu, 		  Uni: zw2338
 
 
-## objective
+## Objective
 What is our goal
 
 ## Data Clean
