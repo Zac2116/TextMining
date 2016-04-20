@@ -86,7 +86,10 @@ Combined multiply features together.
     ＊ Cross Validation
 
 3. Neural Network 
-    
+- Layers: 4
+- Nodes: 50/layers
+
+![](https://raw.githubusercontent.com/Zac2116/TextMining/master/figs/nn_loss.png)
 
     
 ## Conclusion
