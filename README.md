@@ -16,6 +16,7 @@ Galance of the training dataset
 ![](https://raw.githubusercontent.com/Zac2116/TextMining/master/figs/raw_data.png)
 
 dataset summary: 
+
 1. 76047 observations.
 2. relevance from 1 less related to 3 highly relevant.
 
