@@ -94,6 +94,9 @@ Combined multiply features together.
 We applied 5-folds cross validation for each regressors to generated the following table:
 
 
+5-fold CV validated-rMSE comparison:
+
+
 | Feature\Regressor   | GLM                 | ML          | NN             |
 | ------------------- |:-------------------:| -----------:|---------------:|
 | customized               |                     |               |0.53949851646980662|
