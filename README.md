@@ -7,6 +7,7 @@ Group member:
 * Xiaoci Xing,  	Uni: xx2203
 * Ziyue Wu, 		  Uni: zw2338
 
+![](https://raw.githubusercontent.com/Zac2116/TextMining/master/figs/searchImage.png)
 
 ## Quick Summary
 
