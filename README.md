@@ -15,10 +15,15 @@ Predict how relevance of a search keywords matched with products, according to t
 Galance of the training dataset
 ![](https://raw.githubusercontent.com/Zac2116/TextMining/master/figs/raw_data.png)
 
+dataset summary: 
+1. 76047 observations.
+2. relevance from 1 less related to 3 highly relevant.
+
+
 ## Data Cleaning
 - Fixed typo: “helloWorld” －> "hello World" 
 - Cleaned stop words: delete words like "the", "and"
-- Replace synomous words
+- Replace synonymous words
 - Cleared insignificant punctuation: "#.,"
 - Cleared plurality: "feet" -> foot
 - Changed to word sterm
