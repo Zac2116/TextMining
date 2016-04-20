@@ -17,7 +17,7 @@ Predict relevance scores of a given search keywords to Home Depot products, acco
 
 #### Dataset Dummary: 
 
-1. 76047 observations.
+1. 74067 observations.
 2. relevance from 1 less related to 3 highly relevant.
 
 
