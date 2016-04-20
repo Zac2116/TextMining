@@ -72,6 +72,11 @@ then, we used cosine similarity to obtain the similarity between "Search term", 
 Cosine Similarity: Cosine similarity is a measure of similarity between two vectors of an inner product space that measures the cosine of the angle between them
 
 #### 3. Customized features
+As most of items have their attributes in data, we choose the most three common attributes among products, brand, color and material.
+![](https://github.com/Zac2116/TextMining/blob/master/figs/Attributes.png)
+
+It's reasonable to compare between search term and these three product attributes.
+In this case we used same accard coefficient method. The number of grams here is 1, as many items only have one word in their color and material description.
 
 #### 4. combined features (distance + tf-idf)
 Combined multiply features together.
@@ -101,11 +106,11 @@ We applied 5-folds cross validation for each regressors to generated the followi
 5-fold CV validated-rMSE comparison:
 
 
-| Feature\Regressor   | GLM                 | ML          | NN             |
-| ------------------- |:-------------------:| -----------:|---------------:|
-| customized               |                     |               |0.53949851646980662|
-| Distance            |             |          |  0.52107467047949974              |
-| tf-idf              |             |           |  0.51244960232101389           |
-| all          |             |          |   0.51147107360201327             |
+| Feature\Regressor   | GLM           | RF          | XGB            |NN       |
+| ------------------- |:-------------:| -----------:|---------------:|--------:|
+| Customized          |               | 0.5326 	    | 0.5323         |0.5395   |
+| Distance            |               | 0.5104      | 0.5105         |0.5211   |
+| Ti-idf	          |               | 0.4967      | 0.4983         |0.51245  |
+| All				  |				  | 0.4939      | 0.4973   		 |0.5115   |
 
 
