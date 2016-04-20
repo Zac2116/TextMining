@@ -121,7 +121,7 @@ We applied 5-folds cross validation for each regressors to generated the followi
 5-fold CV validated-rMSE comparison:
 
 
-| Feature\Regressor   | Simple Regression    |Ridge Regression    | RF          | XGB            |NN       |
+| Feature\Regressor   | SLR    |Ridge Regression    | RF          | XGB            |NN       |
 | ------------------- |:--------------------:|:------------------:| -----------:|---------------:|--------:|
 | Customized          | 0.532                |0.532               | 0.5326 	    | 0.5323         |0.53570  |
 | Distance            | 0.516                |0.512               | 0.5104      | 0.5105         |0.51532  |
