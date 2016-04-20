@@ -86,6 +86,7 @@ Combined multiply features together.
     ＊ Cross Validation
 
 3. Neural Network 
+
 - Layers: 4
 - Nodes: 50/layers
 
