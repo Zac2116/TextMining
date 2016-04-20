@@ -12,10 +12,10 @@ Group member:
 
 Predict relevance scores of a given search keywords to Home Depot products, according to product description and attributes.
 
-Galance of the training dataset
+#### Galance of the training dataset
 ![](https://raw.githubusercontent.com/Zac2116/TextMining/master/figs/raw_data.png)
 
-dataset summary: 
+#### Dataset Dummary: 
 
 1. 76047 observations.
 2. relevance from 1 less related to 3 highly relevant.
