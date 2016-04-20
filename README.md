@@ -2,10 +2,10 @@ Title: Home Depot Product Search Relevance
 ==========================================
 Group member:
 ------------------------------------------
-* Kewen Zhang, 	  Uni: kz2246
-* Pengfei Wang, 	Uni: pw2406
-* Xiaoci Xing,  	Uni: xx2203
-* Ziyue Wu, 		  Uni: zw2338
+* Kewen Zhang, 	  
+* Pengfei Wang, 	
+* Xiaoci Xing,  	
+* Ziyue Wu, 		  
 
 ![](https://raw.githubusercontent.com/Zac2116/TextMining/master/figs/searchImage.png)
 
