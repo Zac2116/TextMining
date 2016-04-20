@@ -37,9 +37,20 @@ BEHR Premium Textured DeckOver 1-gal. #SC-141 Tugboat Wood and Concrete Coating 
 
 
 ## Exploration 
-1. relevance distribution.
 
-2. word clouds for each columns 
+1. relevance distribution.
+![](https://github.com/Zac2116/TextMining/blob/master/figs/download%20.png)
+
+2. word clouds: 
+
+Search term:
+![](https://raw.githubusercontent.com/Zac2116/TextMining/master/figs/SearchList.png)
+
+Product title:
+![](https://raw.githubusercontent.com/Zac2116/TextMining/master/figs/ProductList.png)
+
+Product Description:
+![](https://github.com/Zac2116/TextMining/blob/master/figs/DescriList.png)
 
 3. 
 
@@ -78,7 +89,7 @@ As most of items have their attributes in data, we choose the most three common 
 It's reasonable to compare between search term and these three product attributes.
 In this case we used same accard coefficient method. The number of grams here is 1, as many items only have one word in their color and material description.
 
-#### 4. combined features (distance + tf-idf)
+#### 4. combined features (distance + tf-idf + customized features)
 Combined multiply features together.
 
 
