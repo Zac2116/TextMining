@@ -46,9 +46,7 @@ BEHR Premium Textured DeckOver 1-gal. #SC-141 Tugboat Wood and Concrete Coating 
 
 ## Feature Extraction
 
-1. count
-
-#### distance
+#### 1.distance
 We have used Jaccard coefficient 
 
 JaccardCoef(A, B) = |A ∩ B| / |A ∪ B|
@@ -62,7 +60,7 @@ By comparing the variance of each extracted features from 1 - 10 grams, we have 
 ![](https://raw.githubusercontent.com/Zac2116/TextMining/master/figs/dfeatures2.png)
 
 
-#### Cosine Similarity with tf-idf (term frequency - inverse document frequency)
+#### 2.Cosine Similarity with tf-idf (term frequency - inverse document frequency)
 In the case of the term frequency tf(t,d), the simplest choice is to use the raw frequency of a term in a document.
 The inverse document frequency is a measure of how much information the word provides, that is, whether the term is common or rare across all documents.
 
@@ -73,8 +71,9 @@ For n-grams selection of tf-idf, we have the similar result as Jaccard Coefficie
 then, we used cosine similarity to obtain the similarity between "Search term", "Product Description" and "Product title" respectively. 
 Cosine Similarity: Cosine similarity is a measure of similarity between two vectors of an inner product space that measures the cosine of the angle between them
 
+#### 3. Customized features
 
-4. combined features (distance + tf-idf)
+#### 4. combined features (distance + tf-idf)
 Combined multiply features together.
 
 
@@ -87,18 +86,19 @@ Combined multiply features together.
     ＊ Cross Validation
 
 3. Neural Network 
+    
 
     
 ## Conclusion
 
-
+We applied 5-folds cross validation for each regressors to generated the following table:
 
 
 | Feature\Regressor   | GLM                 | ML          | NN             |
 | ------------------- |:-------------------:| -----------:|---------------:|
-| count               |                     |               |                |
-| Distance            |             |          |                |
-| tf-idf              |             |           |                |
-| tf-idf + d          |             |          |                |
+| customized               |                     |               |                |
+| Distance            |             |          |  0.52107467047949974              |
+| tf-idf              |             |           |  0.51244960232101389           |
+| all          |             |          |   0.51147107360201327             |
 
 
