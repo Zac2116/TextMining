@@ -39,6 +39,7 @@ BEHR Premium Textured DeckOver 1-gal. #SC-141 Tugboat Wood and Concrete Coating 
 ## Exploration 
 
 1. relevance distribution.
+
 ![](https://github.com/Zac2116/TextMining/blob/master/figs/download%20.png)
 
 2. word clouds: 
@@ -55,7 +56,6 @@ Product Description:
 
 ![](https://github.com/Zac2116/TextMining/blob/master/figs/DescriList.png)
 
-3. 
 
 
 ## Feature Extraction
