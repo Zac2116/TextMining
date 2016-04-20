@@ -10,7 +10,7 @@ Group member:
 
 ## Quick Summary
 
-Predict how relevance of a search keywords matched with products, according to their description and attributes.
+Predict relevance scores of a given search keywords to Home Depot products, according to product description and attributes.
 
 Galance of the training dataset
 ![](https://raw.githubusercontent.com/Zac2116/TextMining/master/figs/raw_data.png)
