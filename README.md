@@ -96,7 +96,7 @@ We applied 5-folds cross validation for each regressors to generated the followi
 
 | Feature\Regressor   | GLM                 | ML          | NN             |
 | ------------------- |:-------------------:| -----------:|---------------:|
-| customized               |                     |   0.53949851646980662            |                |
+| customized               |                     |               |0.53949851646980662|
 | Distance            |             |          |  0.52107467047949974              |
 | tf-idf              |             |           |  0.51244960232101389           |
 | all          |             |          |   0.51147107360201327             |
