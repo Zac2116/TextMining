@@ -44,12 +44,15 @@ BEHR Premium Textured DeckOver 1-gal. #SC-141 Tugboat Wood and Concrete Coating 
 2. word clouds: 
 
 Search term:
+
 ![](https://raw.githubusercontent.com/Zac2116/TextMining/master/figs/SearchList.png)
 
 Product title:
+
 ![](https://raw.githubusercontent.com/Zac2116/TextMining/master/figs/ProductList.png)
 
 Product Description:
+
 ![](https://github.com/Zac2116/TextMining/blob/master/figs/DescriList.png)
 
 3. 
@@ -105,6 +108,7 @@ Combined multiply features together.
 
 - Layers: 4
 - Nodes: 50/layers
+- Steps: 5000
 
 ![](https://raw.githubusercontent.com/Zac2116/TextMining/master/figs/nn_loss.png)
 
@@ -123,5 +127,12 @@ We applied 5-folds cross validation for each regressors to generated the followi
 | Distance            |               | 0.5104      | 0.5105         |0.5211   |
 | Ti-idf	          |               | 0.4967      | 0.4983         |0.51245  |
 | All				  |				  | 0.4939      | 0.4973   		 |0.5115   |
+
+
+## Future work
+
+1. Find better features
+2. Increased steps of Neural Network Regressor
+
 
 
