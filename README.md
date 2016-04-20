@@ -126,7 +126,7 @@ We applied 5-folds cross validation for each regressors to generated the followi
 | Customized          |               | 0.5326 	    | 0.5323         |0.5395   |
 | Distance            |               | 0.5104      | 0.5105         |0.5211   |
 | Ti-idf	          |               | 0.4967      | 0.4983         |0.51245  |
-| All				  |				  | 0.4939      | 0.4973   		 |0.5115   |
+| All				  |				  | 0.4939      | 0.4973   		 |0.50099  |
 
 
 ## Future work
