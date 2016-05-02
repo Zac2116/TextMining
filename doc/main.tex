@@ -84,11 +84,17 @@ Including but not limited to removing insignificant punctuation like "\# , .", t
 \caption{Combined List}\label{fig:3} 
 \end{figure} 
 \section{Feature Extraction/Selection}
-We use function ngram(s, n) to extract string/sentence s’s n-gram (splitted by whitespace), where n = 1, 2, 3.... For example ngram(big red apple, 2) = [big red, red apple].
+We use function ngram(s, n) to extract string/sentence s’s n-gram (splitted by whitespace), where n = 1, 2, 3....
+
+For example ngram(big red apple, 2) = [big red, red apple].
 
 All the features are extracted for each run (i.e., repeated time) and fold(used in cross-validation and ensembling), and for the entire training and testing set (used in final model building and generating submission).
 \subsection{Counting Features}
-We generate counting features by calculating the total number of words in product title and search term. For some search terms, it only contains one word, like some ambiguous word ‘car’ or some meaningless stopword ‘to’, ‘or’. While there are still many meaningful one-word search term, multi-word search items are more likely to be specific and clear. Another counting features are the number of digits appeared in the product title and search term.
+We generate counting features by calculating the total number of words in product title and search term. 
+
+For some search terms, it only contains one word, like some ambiguous word ‘car’ or some meaningless stopword ‘to’, ‘or’. While there are still many meaningful one-word search term, multi-word search items are more likely to be specific and clear. 
+
+Another counting features are the number of digits appeared in the product title and search term.
 \begin{figure}[htbp] 
 \centering\includegraphics[width=3.5in]{image1} 
 \caption{Counting Features}\label{fig:4} 
@@ -116,6 +122,7 @@ In the case of the term frequency tf(t,d), the simplest choice is to use the raw
 \caption{n-gram for TF-IDF Feature}\label{fig:8} 
 \end{figure} 
 For n-gram selection of tf-idf, we have the similar result as Jaccard Coefficient distance.
+\newpage
 \subsection{Customized Features}
 As most of items have their attributes in data, we choose the most three common attributes among products, brand, color and material. In these features, we used the method the same as Jaccard coefficient. Obviously, as many items only have one word in their color and material description, we would prefer 1-gram here.
 \subsection{Combined Features}
