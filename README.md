@@ -7,6 +7,8 @@ Group member:
 * Xiaoci Xing,  	
 * Ziyue Wu, 		  
 
+![Click here to read the full report](https://github.com/Zac2116/TextMining/blob/master/doc/FinalReport.pdf)
+
 ![](https://raw.githubusercontent.com/Zac2116/TextMining/master/figs/searchImage.png)
 
 ## Quick Summary
