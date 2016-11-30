@@ -100,10 +100,10 @@ Combined multiply features together.
 
 ## Regressor
 
-1. General Linear Model   4201 methods
+1. General Linear Model   
     * colinearality me
 
-2. Machine Learning Regressor  克文之前做的classifier
+2. Machine Learning Regressor  
     ＊ Cross Validation
 
 3. Neural Network 
